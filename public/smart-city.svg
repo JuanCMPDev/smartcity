@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 496 496" xml:space="preserve">
+<g>
+	<rect x="40" y="240" style="fill:#513C7F;" width="80" height="192"/>
+	<rect x="56" y="216" style="fill:#513C7F;" width="48" height="88"/>
+	<rect x="72" y="152" style="fill:#513C7F;" width="16" height="88"/>
+	<polygon style="fill:#513C7F;" points="424,432 352,432 352,346.4 424,284.8 	"/>
+	<rect x="392" y="240" style="fill:#513C7F;" width="48" height="192"/>
+	<rect x="432" y="320" style="fill:#513C7F;" width="40" height="112"/>
+	<rect x="456" y="352" style="fill:#513C7F;" width="40" height="80"/>
+	<rect x="40" y="312" style="fill:#513C7F;" width="112" height="120"/>
+	<rect y="352" style="fill:#513C7F;" width="120" height="80"/>
+</g>
+<rect y="432" style="fill:#C4C4C4;" width="496" height="64"/>
+<polyline style="fill:#A8A8A8;" points="144,432 496,432 496,496 "/>
+<rect x="144" y="72" style="fill:#8989CC;" width="208" height="360"/>
+<polyline style="fill:#6965A8;" points="144,72 352,72 352,432 "/>
+<rect x="184" y="40" style="fill:#8989CC;" width="128" height="32"/>
+<rect x="216" style="fill:#6965A8;" width="64" height="40"/>
+<rect x="224" y="352" style="fill:#66DFFF;" width="48" height="80"/>
+<rect x="248" y="352" style="fill:#3AC2F2;" width="24" height="80"/>
+<g>
+	<rect x="176" y="112" style="fill:#FFC114;" width="32" height="32"/>
+	<rect x="232" y="112" style="fill:#FFC114;" width="32" height="32"/>
+	<rect x="288" y="112" style="fill:#FFC114;" width="32" height="32"/>
+</g>
+<g>
+	<polyline style="fill:#FCA12A;" points="208,112 208,144 176,144 	"/>
+	<polyline style="fill:#FCA12A;" points="264,112 264,144 232,144 	"/>
+	<polyline style="fill:#FCA12A;" points="320,112 320,144 288,144 	"/>
+</g>
+<g>
+	<rect x="176" y="168" style="fill:#FFC114;" width="32" height="32"/>
+	<rect x="232" y="168" style="fill:#FFC114;" width="32" height="32"/>
+	<rect x="288" y="168" style="fill:#FFC114;" width="32" height="32"/>
+</g>
+<g>
+	<polyline style="fill:#FCA12A;" points="208,168 208,200 176,200 	"/>
+	<polyline style="fill:#FCA12A;" points="264,168 264,200 232,200 	"/>
+	<polyline style="fill:#FCA12A;" points="320,168 320,200 288,200 	"/>
+</g>
+<g>
+	<rect x="176" y="224" style="fill:#FFC114;" width="32" height="32"/>
+	<rect x="232" y="224" style="fill:#FFC114;" width="32" height="32"/>
+	<rect x="288" y="224" style="fill:#FFC114;" width="32" height="32"/>
+</g>
+<g>
+	<polyline style="fill:#FCA12A;" points="208,224 208,256 176,256 	"/>
+	<polyline style="fill:#FCA12A;" points="264,224 264,256 232,256 	"/>
+	<polyline style="fill:#FCA12A;" points="320,224 320,256 288,256 	"/>
+</g>
+<g>
+	<rect x="176" y="280" style="fill:#FFC114;" width="32" height="32"/>
+	<rect x="232" y="280" style="fill:#FFC114;" width="32" height="32"/>
+	<rect x="288" y="280" style="fill:#FFC114;" width="32" height="32"/>
+</g>
+<g>
+	<polyline style="fill:#FCA12A;" points="208,280 208,312 176,312 	"/>
+	<polyline style="fill:#FCA12A;" points="264,280 264,312 232,312 	"/>
+	<polyline style="fill:#FCA12A;" points="320,280 320,312 288,312 	"/>
+</g>
+<polygon style="fill:#FFC114;" points="248,11.2 255.2,26.4 272,28.8 260,40.8 262.4,57.6 248,49.6 232.8,57.6 236,40.8 224,28.8 
+	240,26.4 "/>
+<polyline style="fill:#FCA12A;" points="255.2,26.4 272,28.8 260,40.8 262.4,57.6 248,49.6 232.8,57.6 236,40.8 "/>
+</svg>
