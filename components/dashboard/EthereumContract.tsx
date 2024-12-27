@@ -66,7 +66,7 @@ contract IncidentTracker {
           </div>
           <div>
             <p className="font-semibold mb-1">Estado de la Transacción:</p>
-            <Badge variant="success">Confirmada</Badge>
+            <Badge variant="outline">Confirmada</Badge>
           </div>
         </div>
       </CardContent>

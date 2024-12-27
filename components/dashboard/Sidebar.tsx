@@ -39,7 +39,7 @@ export function Sidebar() {
           id: user.id, 
           full_name: profile?.full_name || null,
           avatar_url: profile?.avatar_url || null,
-          email: user.email
+          email: user.email as string
         })
       }
     }

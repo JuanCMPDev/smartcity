@@ -1,7 +1,17 @@
 import { createServerClient, type CookieOptions } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
 
-function isProfileComplete(profile) {
+interface Profile {
+  full_name: string;
+  phone_number: string;
+  city: string;
+  occupation: string;
+  education: string;
+  birthdate: string; // o Date, dependiendo de cómo manejes fechas
+  bio: string;
+}
+
+function isProfileComplete(profile: Profile) {
   return profile.full_name && profile.phone_number && profile.city && profile.occupation && profile.education && profile.birthdate && profile.bio
 }
 

@@ -80,7 +80,7 @@ export default function MyIncidentsPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold">Mis Denuncias</h1>
+      <h1 className="text-3xl font-bold">Mis Incidentes</h1>
       
       <div className="grid gap-6 md:grid-cols-2">
         <Card>
@@ -104,7 +104,7 @@ export default function MyIncidentsPage() {
                     <TableCell>{incident.title}</TableCell>
                     <TableCell>{new Date(incident.incident_date).toLocaleDateString()}</TableCell>
                     <TableCell>
-                      <Badge variant={incident.alarm_level === 'alto' ? 'destructive' : incident.alarm_level === 'moderado' ? 'warning' : 'default'}>
+                      <Badge variant={incident.alarm_level === 'alto' ? 'destructive' : incident.alarm_level === 'moderado' ? 'secondary' : 'default'}>
                         {incident.alarm_level}
                       </Badge>
                     </TableCell>

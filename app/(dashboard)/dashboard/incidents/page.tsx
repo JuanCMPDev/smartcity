@@ -13,7 +13,14 @@ const IncidentReportForm = dynamic(() => import('@/components/dashboard/Incident
   ssr: false
 })
 
-function ErrorFallback({error, resetErrorBoundary}) {
+interface ErrorFallbackProps {
+  error: {
+    message: string;
+  };
+  resetErrorBoundary: () => void;
+}
+
+function ErrorFallback({error, resetErrorBoundary}: ErrorFallbackProps) {
   return (
     <Alert variant="destructive">
       <AlertTitle>Algo salió mal:</AlertTitle>

@@ -10,10 +10,10 @@ import Link from 'next/link'
 import Footer from '@/components/Footer'
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/navigation'
-import { createClient } from '../../lib/supabase/client'
 import { Eye, EyeOff } from 'lucide-react'
 import { Checkbox } from "@/components/ui/checkbox"
 import { toast } from 'sonner'
+import { createClient } from '@/lib/supabase/client'
 
 const fadeInUpVariants = {
   hidden: { opacity: 0, y: 20 },

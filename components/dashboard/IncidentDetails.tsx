@@ -66,7 +66,7 @@ const IncidentDetails: React.FC<IncidentDetailsProps> = ({ incident }) => {
       <CardHeader>
         <CardTitle className="flex items-center justify-between">
           <span>Detalles del Incidente</span>
-          <Badge variant={incident.alarm_level === 'alto' ? 'destructive' : incident.alarm_level === 'moderado' ? 'warning' : 'default'}>
+          <Badge variant={incident.alarm_level === 'alto' ? 'destructive' : incident.alarm_level === 'moderado' ? 'secondary' : 'default'}>
             {incident.alarm_level}
           </Badge>
         </CardTitle>
