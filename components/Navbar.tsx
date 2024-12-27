@@ -1,9 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import Image from 'next/image'
 import { useTheme } from 'next-themes'
 import { Button } from './ui/button'
 import ThemeToggle from './ThemeToggle'
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
           <Link href="/" className="flex items-center space-x-3">
             <div className="relative w-12 h-12 flex items-center justify-center">
               <div className="absolute inset-0 bg-primary rounded-full"></div>
-              <Image
+              <img
                 src="/logo.png"
                 alt="Logo de Ciudad Inteligente"
                 width={100}
