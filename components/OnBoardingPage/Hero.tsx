@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="text-lg py-6 font-medium">
-                <Link href="/about">
+                <Link href="/acercas">
                   <AlertTriangle className="mr-2 h-5 w-5" />
                   Cómo Funciona
                 </Link>

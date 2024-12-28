@@ -1,9 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 
 import React, { useEffect } from 'react'
 import { AlertTriangle, Users, BarChart3, Shield, MapPin, Bell, ChevronRight } from 'lucide-react'
 import Link from 'next/link'
-import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import Footer from '@/components/Footer'
 import { motion, useAnimation, Variants } from 'framer-motion'
@@ -83,7 +83,7 @@ const ServiceSection: React.FC<{ service: typeof services[0], index: number }> =
       className={`mb-24 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} flex flex-col md:flex items-center`}
     >
       <div className="md:w-1/2 mb-8 md:mb-0">
-        <Image
+        <img
           src={service.image}
           alt={service.title}
           width={600}
